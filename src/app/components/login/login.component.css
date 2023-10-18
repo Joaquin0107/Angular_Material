@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+}
+
+.user{
+    transform: scale(2.2);
+    width: 20%;
+    padding: 40px;
+}
+
+.ancho{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.boton{
+    height: 50px;
+}
+
+.spinner{
+    margin: 0 auto;
+}
