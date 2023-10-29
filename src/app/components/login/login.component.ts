@@ -42,10 +42,11 @@ export class LoginComponent {
       verticalPosition: 'top',
     });
   }
+  
   fakeLoading(){
     this.loading = true;
     setTimeout(() =>{
-
+    
       this.router.navigate(['dashboard']);
     },1500);
   }

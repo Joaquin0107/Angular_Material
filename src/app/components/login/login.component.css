@@ -2,7 +2,18 @@
     display: flex;
     justify-content: center;
     height: 100%;
+    margin: 0 auto;
     align-items: center;
+    background: linear-gradient(to right, rgb(162, 150, 231),#8c789c);
+}
+
+.cuadro{
+    background-color: white;
+    padding: 100px;
+    width: 100%;
+    box-shadow: 0 20px 30px black;
+    border-radius: 30px;
+    text-align: center;
 }
 
 .login{
